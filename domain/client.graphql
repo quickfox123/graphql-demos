@@ -1,0 +1,6 @@
+type Client {
+    hcid: Int,
+    name: String,
+    address: String,
+    policy:[Policy]
+}

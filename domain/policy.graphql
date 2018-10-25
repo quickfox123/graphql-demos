@@ -1,0 +1,5 @@
+type Policy {
+    type: String,
+    name: String,
+    premiumAmount: Int
+}

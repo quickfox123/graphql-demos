@@ -1,0 +1,8 @@
+# import Agent from "domain/agent.graphql"
+# import Client from "domain/client.graphql"
+# import Policy from "domain/policy.graphql"
+
+type Query {
+  agentData:[Agent]
+  clientData:[Client]
+}

@@ -1,0 +1,5 @@
+type Agent {
+    taxId: Int,
+    name: String,
+    client:[Client]
+}
