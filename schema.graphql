@@ -3,6 +3,8 @@
 # import Policy from "domain/policy.graphql"
 
 type Query {
-  agentData:[Agent]
+  agentData:[Agent] 
   clientData:[Client]
+  getAgentById(taxId: Int): Agent
+  getClientById(hcid: Int): Client
 }
